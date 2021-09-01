@@ -5,8 +5,8 @@ workflows:
         instance_type: mac_mini
         environment:
             vars:
-                XCODE_WORKSPACE: "ReactTemplate.xcworkspace" # <-- Put the name of your Xcode workspace here
-                XCODE_SCHEME: "ReactTemplate" # <-- Put the name of your Xcode scheme here
+                XCODE_WORKSPACE: "Awesome.xcworkspace" # <-- Put the name of your Xcode workspace here
+                XCODE_SCHEME: "Awesome" # <-- Put the name of your Xcode scheme here
             node: latest
             xcode: 12.5
             cocoapods: default
